@@ -13,14 +13,16 @@ import java.util.Date;
 public class Vote {
     @Id
     private String id;
-    private String objectType = "Vote";
-    private Associate associate;
+    private String objectType;
+    private String associateId;
     private Date dtVote;
-    private Boolean choice;
+    private Boolean voteChoice;
 
-    Vote(Associate associate, Boolean choice) {
-        this.associate = associate;
-        this.choice = choice;
+    public Vote(String associateId, Boolean voteChoice){
+        this.objectType = "Vote";
+        this.associateId = associateId;
         this.dtVote = new Date();
+        this.voteChoice = voteChoice;
     }
+
 }

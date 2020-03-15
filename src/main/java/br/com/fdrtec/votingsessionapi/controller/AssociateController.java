@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 @RestController
 public class AssociateController {
     @Autowired
-    AssociateService service;
+    private AssociateService service;
 
     @GetMapping(value = "/associate")
     public Flux<Associate> getAssociates() {

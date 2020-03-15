@@ -4,7 +4,6 @@ import lombok.Getter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Getter
@@ -12,13 +11,14 @@ import java.util.List;
 public class Schedule {
     @Id
     private String id;
-    private String objectType = "Schedule";
+    private String objectType;
     private String title;
-    private List<String> sessions;
+    private List<VoteSession> voteSessions;
 
-    Schedule(String title){
+    Schedule(String title, List voteSessions){
+        this.objectType = "Schedule";
         this.title = title;
-        this.sessions = new ArrayList<>();
+        this.voteSessions = voteSessions;
     }
 
 

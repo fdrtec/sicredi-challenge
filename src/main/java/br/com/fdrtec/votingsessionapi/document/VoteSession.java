@@ -5,27 +5,35 @@ import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 
 @Getter
 @Document
 public class VoteSession {
     @Id
     private String id;
-    private String objectType = "VoteSession";
+    private String objectType;
     @Setter
-    private long duration = 600000;
-    private Date dtStart = new Date();
+    private long sessionDurantion;
+    private Date dtStart;
     @Setter
-    private Date dtEnd;
+    private String dtEnd;
     @Setter
     private List<Vote> votes;
 
-    VoteSession(){
-        this.votes = new ArrayList<Vote>();
+    public VoteSession(String dtEnd, List votes) {
+        this.objectType = "VoteSession";
+        this.dtStart = new Date();
+        this.dtEnd = dtEnd;
+        //this.sessionDurantion = getSessionDuration();
+        this.sessionDurantion = 60000;
+        this.votes = votes;
     }
 
+//    private Long getSessionDuration(){
+//        long startTime = dtStart.getTime();
+//        long endTime = dtEnd.getTime();
+//        return endTime - startTime;
+//    }
 }

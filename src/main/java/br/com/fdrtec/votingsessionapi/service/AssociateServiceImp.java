@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 @Service
 public class AssociateServiceImp implements AssociateService {
     @Autowired
-    AssociateRepository associateRepository;
+    private AssociateRepository associateRepository;
 
     @Override
     public Flux<Associate> findAll() {
