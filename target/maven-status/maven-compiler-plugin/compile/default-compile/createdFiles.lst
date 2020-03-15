@@ -1,0 +1,17 @@
+br/com/fdrtec/votingsessionapi/VotingSessionApiApplication.class
+br/com/fdrtec/votingsessionapi/service/AssociateServiceImp.class
+br/com/fdrtec/votingsessionapi/document/Vote.class
+br/com/fdrtec/votingsessionapi/document/Associate.class
+br/com/fdrtec/votingsessionapi/document/VoteSession.class
+br/com/fdrtec/votingsessionapi/document/Convocation.class
+br/com/fdrtec/votingsessionapi/service/AssociateService.class
+br/com/fdrtec/votingsessionapi/repository/VoteSessionRepository.class
+br/com/fdrtec/votingsessionapi/controller/ConvocationController.class
+br/com/fdrtec/votingsessionapi/controller/AssociateController.class
+br/com/fdrtec/votingsessionapi/repository/ConvocationRepository.class
+br/com/fdrtec/votingsessionapi/repository/AssociateRepository.class
+br/com/fdrtec/votingsessionapi/repository/ScheduleRepository.class
+br/com/fdrtec/votingsessionapi/repository/VoteRepository.class
+br/com/fdrtec/votingsessionapi/document/Schedule.class
+br/com/fdrtec/votingsessionapi/service/ConvocationService.class
+br/com/fdrtec/votingsessionapi/service/ConvocationServiceImp.class

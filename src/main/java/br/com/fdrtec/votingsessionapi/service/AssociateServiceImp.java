@@ -8,11 +8,9 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Service
-public class AssociateServiceImp implements AssociateService{
-
+public class AssociateServiceImp implements AssociateService {
     @Autowired
     AssociateRepository associateRepository;
-
 
     @Override
     public Flux<Associate> findAll() {

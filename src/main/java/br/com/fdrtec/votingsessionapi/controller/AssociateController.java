@@ -9,22 +9,21 @@ import reactor.core.publisher.Mono;
 
 @RestController
 public class AssociateController {
-
     @Autowired
     AssociateService service;
 
     @GetMapping(value = "/associate")
-    public Flux<Associate> getAssociates(){
+    public Flux<Associate> getAssociates() {
         return service.findAll();
     }
 
     @GetMapping(value = "/associate/{id}")
-    public Mono<Associate> getAssociateById(@PathVariable String id){
+    public Mono<Associate> getAssociateById(@PathVariable String id) {
         return service.findById(id);
     }
 
     @PostMapping(value = "/associate")
-    public Mono<Associate> save(@RequestBody Associate associate){
+    public Mono<Associate> save(@RequestBody Associate associate) {
         return service.save(associate);
     }
 

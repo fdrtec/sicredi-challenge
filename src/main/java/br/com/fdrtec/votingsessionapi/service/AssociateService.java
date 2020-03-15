@@ -5,9 +5,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface AssociateService {
-
     Flux<Associate> findAll();
     Mono<Associate> findById(String id);
     Mono<Associate> save(Associate associate);
-
 }

@@ -1,0 +1,17 @@
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/repository/VoteSessionRepository.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/document/Associate.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/document/Vote.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/service/AssociateService.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/repository/ConvocationRepository.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/repository/ScheduleRepository.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/document/Convocation.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/repository/VoteRepository.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/controller/ConvocationController.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/service/AssociateServiceImp.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/document/VoteSession.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/service/ConvocationService.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/VotingSessionApiApplication.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/service/ConvocationServiceImp.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/repository/AssociateRepository.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/controller/AssociateController.java
+/home/fabiano/academia/sicredi-challenge/src/main/java/br/com/fdrtec/votingsessionapi/document/Schedule.java
